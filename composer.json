@@ -1,0 +1,33 @@
+{
+    "name": "dkocian/events",
+	"version": "1.0.0",
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+    "require": {
+        "php": ">=5.5",
+        "nette/utils": "~2.2",
+        "nette/forms": "~2.2",
+        "latte/latte": "~2.3",
+        "nette/application": "~2.2",
+        "nette/component-model": "~2.2",
+		"dibi/dibi": "~3.0.1"
+    },
+	"type": "library",
+    "authors": [
+        {
+            "name": "Dalibor Kocián",
+            "email": "kocian.dalibor@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "dk\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "dk\\Tests\\": "tests"
+        }
+    }
+	
+}
