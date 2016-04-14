@@ -1,7 +1,26 @@
 {
     "name": "dkocian/events",
 	"version": "v1.2.0",
-	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"]
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"minimum-stability": "dev",
 
+	"type": "library",
+    "authors": [
+        {
+            "name": "Dalibor Kocián",
+            "email": "kocian.dalibor@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "dk\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "dk\\Tests\\": "tests"
+        }
+    }
 	
 }
